@@ -8,12 +8,12 @@ Elements of Reusable Object-Oriented Software
 
 - [Memento Pattern](#memento-pattern)
 - [State Pattern](#state-pattern)
-- [Iterator Pattern](#iterator-patter)
+- [Iterator Pattern](#iterator-pattern)
 - [Strategy Pattern](#strategi-pattern)
-- [Template Method Pattern](#template-method-patter)
+- [Template Method Pattern](#template-method-pattern)
 - [Command Pattern](#command-pattern)
 - [Observer Pattern](#objserver-pattern)
-- [Mediator Pattern](#mediator-patterb)
+- [Mediator Pattern](#mediator-pattern)
 - [Chain of Responsability Pattern](#chain-of-responsability-pattern)
 - [Visitor Pattern](#visitor-pattern)
 
