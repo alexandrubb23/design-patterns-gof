@@ -1,7 +1,8 @@
 import { Tool } from './Tool';
+import { SelectionTool } from './SelectionTool';
 
 export class Canvas {
-  private currentTool!: Tool;
+  private currentTool: Tool = new SelectionTool();
 
   public mouseDown(): string {
     return this.currentTool.mouseDown();
