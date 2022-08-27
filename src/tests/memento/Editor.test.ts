@@ -10,14 +10,10 @@ describe('Editor Memento Pattern /', () => {
   });
 
   const createContent = () => {
-    editor.setContent('a');
-    history.push(editor.createState());
-
-    editor.setContent('b');
-    history.push(editor.createState());
-
-    editor.setContent('c');
-    history.push(editor.createState());
+    ['a', 'b', 'c'].forEach(content => {
+      editor.setContent(content);
+      history.push(editor.createState());
+    });
   };
 
   describe('if we are adding a, b, c and we undo once', () => {
@@ -41,7 +37,7 @@ describe('Editor Memento Pattern /', () => {
     });
   });
 
-  describe('if we are adding a, b, c and we get out of bounds', () => {
+  describe('if we are adding a, b, c and we are getting out of bounds when we undo', () => {
     it('should thrown an IndexOutOfBoundsException', () => {
       createContent();
 
