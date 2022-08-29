@@ -63,6 +63,12 @@ npm run test
 
 With Memento Pattern we can implement an undo mechanism.
 
+See Memento Pattern in action:
+
+```
+tsc && node dist/memento/memento.js
+```
+
 ## State Pattern
 
 State Pattern allows an object to behave differently when it state changes.
