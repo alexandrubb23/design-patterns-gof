@@ -81,7 +81,13 @@ tsc && node dist/state/state.js
 
 ## Iterator Pattern
 
-With Iterator Pattern ...
+With Iterator Pattern we can iterate over any kind of Data Structures without any breaking changes.
+
+See Iterator Pattern in action:
+
+```
+tsc && node dist/iterator/arrayIterator.js
+```
 
 ## Strategy Pattern
 
@@ -139,7 +145,7 @@ With Bridge Pattern ...
 
 With Proxy Pattern ...
 
-## Protorype Pattern
+## Prototype Pattern
 
 With Prototype Pattern ...
 
