@@ -65,7 +65,7 @@ With Memento Pattern we can implement an undo mechanism.
 
 ## State Pattern
 
-With State Pattern ...
+State Pattern allows an object to behave differently when it state changes.
 
 ## Iterator Pattern
 
