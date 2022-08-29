@@ -67,6 +67,12 @@ With Memento Pattern we can implement an undo mechanism.
 
 State Pattern allows an object to behave differently when it state changes.
 
+See State Pattern in action:
+
+```
+tsc && node dist/state/state.js
+```
+
 ## Iterator Pattern
 
 With Iterator Pattern ...
