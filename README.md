@@ -91,7 +91,7 @@ tsc && node dist/iterator/arrayIterator.js
 
 ## Strategy Pattern
 
-With State Pattern ...
+With Strategy Pattern we can apply filtering or compress an image before we store it.
 
 ## Template Method Pattern
 
