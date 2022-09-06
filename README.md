@@ -101,7 +101,13 @@ tsc && node dist/strategy/strategyPattern.js
 
 ## Template Method Pattern
 
-With Template Method Pattern ...
+With Template Method Pattern we can execute methods defines a template or skeleton for an operation.
+
+See Template Pattern in action:
+
+```
+tsc && node dist/template/templatePattern.js
+```
 
 ## Command Pattern
 
