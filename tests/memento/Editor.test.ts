@@ -1,4 +1,4 @@
-import { Editor, EditorState, History } from '../../src/memento';
+import { Editor, EditorState, History } from '../../src/DesignPatterns/memento';
 
 describe('Editor Memento Pattern /', () => {
   let editor: Editor;

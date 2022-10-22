@@ -1,4 +1,4 @@
-import { PngCompressor } from '../../src/strategy';
+import { PngCompressor } from '../../src/DesignPatterns/strategy';
 
 describe('PNG Compressor', () => {
   it('should compress an image using PNG', () => {
@@ -9,4 +9,3 @@ describe('PNG Compressor', () => {
     expect(result).toEqual('Compressing dog using PNG');
   });
 });
- 

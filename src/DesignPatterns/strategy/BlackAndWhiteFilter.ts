@@ -1,4 +1,4 @@
-import { log } from '../utils';
+import { log } from '../../utils';
 import { Filter } from './Filter';
 
 export class BlackAndWhiteFilter implements Filter {

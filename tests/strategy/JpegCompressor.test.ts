@@ -1,4 +1,4 @@
-import { JpegCompressor } from "../../src/strategy";
+import { JpegCompressor } from '../../src/DesignPatterns/strategy';
 
 describe('JPEG Compressor', () => {
   it('should compress an image using JPEG', () => {

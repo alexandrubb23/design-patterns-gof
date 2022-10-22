@@ -2,7 +2,7 @@ import {
   CompositeCommand,
   BlackAndWhiteCommand,
   ResizeCommand,
-} from '../../src/command/photoshop';
+} from '../../src/DesignPatterns/command/photoshop';
 
 describe('Photoshop Actions Command Pattern /', () => {
   let compositeCommand;

@@ -1,4 +1,4 @@
-import { log } from '../utils';
+import { log } from '../../utils';
 import { GenerateReportTask } from './GenerateReportTask';
 import { Task } from './Task';
 import { TransferMoneyTask } from './TransferMoneyTask';

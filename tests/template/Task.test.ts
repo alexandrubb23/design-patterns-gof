@@ -3,7 +3,7 @@ import {
   GenerateReportTask,
   Task,
   TransferMoneyTask,
-} from '../../src/template';
+} from '../../src/DesignPatterns/template';
 
 const auditTrail = jest.spyOn(AuditTrail.prototype, 'record');
 

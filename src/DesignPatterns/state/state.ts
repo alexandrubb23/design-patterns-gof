@@ -1,4 +1,4 @@
-import { log } from '../utils';
+import { log } from '../../utils';
 import { Canvas } from './Canvas';
 import { SelectionTool } from './SelectionTool';
 

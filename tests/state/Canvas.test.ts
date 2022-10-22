@@ -1,4 +1,9 @@
-import { BrushTool, Canvas, EraserTool, SelectionTool } from '../../src/state';
+import {
+  BrushTool,
+  Canvas,
+  EraserTool,
+  SelectionTool,
+} from '../../src/DesignPatterns/state';
 
 describe('Canvas State Pattern', () => {
   let canvas: Canvas;

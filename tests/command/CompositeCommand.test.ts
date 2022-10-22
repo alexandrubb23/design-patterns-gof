@@ -1,4 +1,4 @@
-import { CompositeCommand } from '../../src/command/photoshop';
+import { CompositeCommand } from '../../src/DesignPatterns/command/photoshop';
 
 class MockCommand {
   public execute() {

@@ -1,4 +1,4 @@
-import { log } from '../utils';
+import { log } from '../../utils';
 import { BrowserHistory } from './BrowserHistory';
 
 const history = new BrowserHistory();

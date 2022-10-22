@@ -1,4 +1,4 @@
-import { BlackAndWhiteFilter } from '../../src/strategy';
+import { BlackAndWhiteFilter } from '../../src/DesignPatterns/strategy';
 
 describe('BlackAndWhite Filter/', () => {
   it('should apply black and white filter on an image', () => {

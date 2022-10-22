@@ -1,4 +1,4 @@
-import { BrowserHistory } from '../../src/iterator/BrowserHistory';
+import { BrowserHistory } from '../../src/DesignPatterns/iterator/BrowserHistory';
 
 describe('BrowserHistory Iterator Pattern /', () => {
   it('should iterate over browser history', () => {

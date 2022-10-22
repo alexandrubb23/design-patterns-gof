@@ -5,7 +5,7 @@ import {
   ImageStorage,
   JpegCompressor,
   PngCompressor,
-} from '../../src/strategy';
+} from '../../src/DesignPatterns/strategy';
 
 describe('ImageStorage Strategy Pattern /', () => {
   let filter: Filter;

@@ -66,7 +66,7 @@ With Memento Pattern we can implement an undo mechanism.
 See Memento Pattern in action:
 
 ```bash
-tsc && node dist/memento/memento.js
+tsc && node dist/DesignPatterns/memento/memento.js
 ```
 
 ## State Pattern
@@ -76,7 +76,7 @@ State Pattern allows an object to behave differently when it state changes.
 See State Pattern in action:
 
 ```bash
-tsc && node dist/state/state.js
+tsc && node dist/DesignPatterns/state/state.js
 ```
 
 ## Iterator Pattern
@@ -86,7 +86,7 @@ With Iterator Pattern we can iterate over any kind of Data Structures without an
 See Iterator Pattern in action:
 
 ```bash
-tsc && node dist/iterator/arrayIterator.js
+tsc && node dist/DesignPatterns/iterator/arrayIterator.js
 ```
 
 ## Strategy Pattern
@@ -96,7 +96,7 @@ With Strategy Pattern we can apply filtering or compress an image before we stor
 See Strategy Pattern in action:
 
 ```bash
-tsc && node dist/strategy/strategyPattern.js
+tsc && node dist/DesignPatterns/strategy/strategyPattern.js
 ```
 
 ## Template Method Pattern
@@ -106,7 +106,7 @@ With Template Method Pattern we can execute methods defines a template or skelet
 See Template Pattern in action:
 
 ```bash
-tsc && node dist/template/templatePattern.js
+tsc && node dist/DesignPatterns/template/templatePattern.js
 ```
 
 ## Command Pattern
@@ -116,7 +116,7 @@ With Command Pattern we can execute multiple commands in one go. For instance, P
 See Command Pattern in action:
 
 ```bash
-tsc && node dist/command/commandPattern.js
+tsc && node dist/DesignPatterns/command/commandPattern.js
 ```
 
 ## Observer Pattern
