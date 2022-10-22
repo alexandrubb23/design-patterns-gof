@@ -43,19 +43,19 @@ Project is created with TypeScript.
 
 1. Clone the project
 
-```
+```bash
 git clone https://github.com/alexandrubb23/design-patterns-gof.git
 ```
 
 2. Navigate to the newly created directory
 
-```
+```bash
 cd design-patterns-gof
 ```
 
 3. Test the implementation
 
-```
+```bash
 npm run test
 ```
 
@@ -65,7 +65,7 @@ With Memento Pattern we can implement an undo mechanism.
 
 See Memento Pattern in action:
 
-```
+```bash
 tsc && node dist/memento/memento.js
 ```
 
@@ -75,7 +75,7 @@ State Pattern allows an object to behave differently when it state changes.
 
 See State Pattern in action:
 
-```
+```bash
 tsc && node dist/state/state.js
 ```
 
@@ -85,7 +85,7 @@ With Iterator Pattern we can iterate over any kind of Data Structures without an
 
 See Iterator Pattern in action:
 
-```
+```bash
 tsc && node dist/iterator/arrayIterator.js
 ```
 
@@ -95,7 +95,7 @@ With Strategy Pattern we can apply filtering or compress an image before we stor
 
 See Strategy Pattern in action:
 
-```
+```bash
 tsc && node dist/strategy/strategyPattern.js
 ```
 
@@ -105,13 +105,19 @@ With Template Method Pattern we can execute methods defines a template or skelet
 
 See Template Pattern in action:
 
-```
+```bash
 tsc && node dist/template/templatePattern.js
 ```
 
 ## Command Pattern
 
-With Command Pattern ...
+With Command Pattern we can execute multiple commands in one go. For instance, Photoshop allows you to record your action(s) and replay them later.
+
+See Command Pattern in action:
+
+```bash
+tsc && node dist/command/commandPattern.js
+```
 
 ## Observer Pattern
 
