@@ -1,3 +1,4 @@
+import { log } from '../utils';
 import { Editor } from './Editor';
 import { EditorState } from './EditorState';
 import { History } from './History';
@@ -17,4 +18,4 @@ history.push(editor.createState());
 editor.restore(history.pop());
 editor.restore(history.pop());
 
-console.log(editor.getContent());
+log(editor.getContent());

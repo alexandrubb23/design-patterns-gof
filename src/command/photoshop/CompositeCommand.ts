@@ -1,3 +1,5 @@
+import { log } from '../../utils';
+
 class CompositeCommand implements Command {
   private commands: Command[] = [];
 
@@ -7,7 +9,7 @@ class CompositeCommand implements Command {
 
   public execute(): void {
     for (const command of this.commands) {
-      console.log(command.execute());
+      log(command.execute());
     }
   }
 

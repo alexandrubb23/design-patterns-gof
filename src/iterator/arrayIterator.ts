@@ -1,3 +1,4 @@
+import { log } from '../utils';
 import { BrowserHistory } from './BrowserHistory';
 
 const history = new BrowserHistory();
@@ -8,6 +9,6 @@ history.push('c');
 const iterator = history.createIterator();
 while (iterator.hasNext()) {
   const url = iterator.current();
-  console.log(url);
+  log(url);
   iterator.next();
 }

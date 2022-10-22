@@ -1,6 +1,8 @@
+import { log } from '../utils';
+
 export class AuditTrail {
   record(): string {
-    console.log('Audit');
+    log('Audit');
 
     return 'Audit';
   }

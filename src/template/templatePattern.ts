@@ -1,11 +1,12 @@
+import { log } from '../utils';
 import { GenerateReportTask } from './GenerateReportTask';
 import { Task } from './Task';
 import { TransferMoneyTask } from './TransferMoneyTask';
 
 const transferMoney: Task = new TransferMoneyTask();
-console.log(transferMoney.execute());
+log(transferMoney.execute());
 
-console.log('#############################');
+log('#############################');
 
 const generateReport: Task = new GenerateReportTask();
-console.log(generateReport.execute());
+log(generateReport.execute());
