@@ -121,6 +121,14 @@ tsc && node dist/DesignPatterns/command/commandPattern.js
 
 ## Observer Pattern
 
+With Observer Pattern we can subscribe to the subject and get notified when the subject is changing his state.
+
+See Observer Pattern in action:
+
+```bash
+tsc && node dist/DesignPatterns/observer/
+```
+
 With Observer Pattern ...
 
 ## Mediator Pattern
