@@ -135,6 +135,12 @@ With Observer Pattern ...
 
 With Mediator Pattern ...
 
+See Mediator pattern in action:
+
+```bash
+tsc && node dist/DesignPatterns/mediator/main.js
+```
+
 ## Chain of Responsability Pattern
 
 With State Pattern ...
