@@ -1,24 +1,22 @@
 import { Button } from './Button';
-import { DialogBox } from './DialogBox';
 import { ListBox } from './ListBox';
 import { TextBox } from './TextBox';
-import { UIControl } from './UIControl';
 
-export class ArticleDialogBox extends DialogBox {
-  private articlesListBox: ListBox = new ListBox(this);
-  private titleTextBox: TextBox = new TextBox(this);
-  private saveButton: Button = new Button(this);
+export class ArticleDialogBox {
+  private articlesListBox: ListBox = new ListBox();
+  private titleTextBox: TextBox = new TextBox();
+  private saveButton: Button = new Button();
+
+  public constructor() {
+    this.articlesListBox.addEventHandler(this.articlesSelected.bind(this));
+    this.titleTextBox.addEventHandler(this.titleChanged.bind(this));
+  }
 
   public simulateUserInteraction() {
     this.articlesListBox.setSelection('Article 1');
 
     console.log('TextBox: ' + this.titleTextBox.getContent());
     console.log('Button: ' + this.saveButton.isEnabled());
-  }
-
-  public changed(control: UIControl) {
-    if (control === this.articlesListBox) this.articlesSelected();
-    else if (control === this.titleTextBox) this.titleChanged();
   }
 
   private titleChanged() {

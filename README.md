@@ -133,7 +133,7 @@ With Observer Pattern ...
 
 ## Mediator Pattern
 
-With Mediator Pattern ...
+With Mediator Pattern we can define an object that encapsulates how a set of objects interact. Instead of objects communicating directly with each other, they communicate through a mediator object.
 
 See Mediator pattern in action:
 

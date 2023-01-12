@@ -1,9 +1,13 @@
-import { DialogBox } from './DialogBox';
+import { EventHandler } from './EventHandler';
 
-export class UIControl {
-  protected owner: DialogBox;
+export abstract class UIControl {
+  private eventHandlers: EventHandler[] = [];
 
-  public constructor(owner: DialogBox) {
-    this.owner = owner;
+  public addEventHandler(eventHandler: EventHandler) {
+    this.eventHandlers.push(eventHandler);
+  }
+
+  protected notifyEventHandlers() {
+    for (let eventHandler of this.eventHandlers) eventHandler();
   }
 }
